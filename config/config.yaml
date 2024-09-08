@@ -1,0 +1,15 @@
+# config.yaml
+network:
+  l1_endpoint: "https://mainnet.infura.io/v3/YOUR-PROJECT-ID"
+  l2_endpoint: "http://localhost:8545"
+  avail_endpoint: "https://avail-node.example.com"
+
+batch:
+  size: 100
+  submission_interval: 600  # in seconds
+
+zk:
+  proving_key_path: "/path/to/proving.key"
+  verification_key_path: "/path/to/verification.key"
+
+# Add more configurations as needed
