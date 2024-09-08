@@ -1,3 +1,4 @@
+```
 identity-management/
 ├── contracts/
 │   └── Identity.sol
@@ -23,7 +24,7 @@ identity-management/
 │   └── main.go
 └── config/
     └── config.yaml
-
+```
 
 
 
