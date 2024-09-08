@@ -1,3 +1,32 @@
+identity-management/
+├── contracts/
+│   └── Identity.sol
+├── polygon-cdk/
+│   ├── state/
+│   │   └── state.go
+│   ├── identity/
+│   │   └── identity.go
+│   ├── txprocessor/
+│   │   └── processor.go
+│   ├── batch/
+│   │   └── manager.go
+│   └── lightclient/
+│       └── client.go
+├── avail-da/
+│   └── client.rs
+├── zk-prover/
+│   ├── circuits/
+│   │   └── identity_circuit.rs
+│   ├── prover.rs
+│   └── verifier.rs
+├── cmd/
+│   └── main.go
+└── config/
+    └── config.yaml
+
+
+
+
 ### 1.Polygon CDK files:
 
     1.state/state.go
