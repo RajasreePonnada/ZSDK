@@ -84,3 +84,72 @@ identity-management/
 
         state/state.go: Syncs light client state
         availda/client.go: Retrieves data for verification
+### Project: "ZK-Verified Decentralized Identity Management with AvailDA"
+
+#### Concept:
+Decentralized identity management system that leverages AvailDA's expandable blobspace, Polygon CDK, RISC Zero zkVM, and light clients to create a secure, scalable, and privacy-preserving solution.
+#### Key Components:
+
+#### AvailDA Integration:
+
+Utilizes AvailDA's blobspace to store encrypted identity data, ensuring high availability and data integrity.
+Leverages AvailDA's expandable nature to accommodate growing identity datasets efficiently.
+
+
+#### Polygon CDK:
+
+Build a custom rollup using Polygon CDK, optimized for identity management operations.
+Implements smart contracts for identity creation, verification, and management.
+
+
+#### RISC Zero zkVM:
+
+Use RISC Zero zkVM to generate zero-knowledge proofs for identity verification without revealing sensitive information.
+Implements privacy-preserving computations for identity attributes and claims.
+
+
+#### Light Client Verification:
+
+A light client for end-users to verify their identity data posted by the sequencer on AvailDA.
+Ensures quick and efficient verification of identity claims without downloading the entire dataset.
+
+
+#### Decentralized Identity Standards:
+
+Implements support for decentralized identity standards like DIDs (Decentralized Identifiers) and VCs (Verifiable Credentials).
+
+
+#### User Interface:
+
+Creates a user-friendly interface for managing digital identities, including creation, updates, and revocations.
+(TBD)
+
+#### Integration APIs:
+
+Develop APIs for third-party services to integrate with the identity management system securely.
+
+
+
+#### Key Benefits:
+
+Privacy: Zero-knowledge proofs ensure that users can prove their identity without revealing unnecessary information.
+Scalability: AvailDA's expandable blobspace allows the system to grow with increasing users and data.
+Security: Combination of AvailDA, zkVM, and light client verification provides multiple layers of security.
+Interoperability: Support for decentralized identity standards ensures compatibility with other systems.
+Cost-efficiency: Utilizes AvailDA's cheap data availability layer for storing large amounts of identity data.
+
+#### Use Cases:
+
+KYC/AML for DeFi platforms
+Age verification for online services
+Educational credential verification
+Professional certification management
+Decentralized reputation systems
+
+#### This project idea addresses several critical aspects of the competition:
+
+It meaningfully utilizes AvailDA's expandable blobspace for storing identity data.
+It improves developer/user experience in the Avail ecosystem by providing a crucial identity management service.
+It incorporates RISC Zero zkVM for privacy-preserving computations.
+It uses Polygon CDK to create a custom rollup optimized for identity management.
+It implements light client verification to ensure data integrity and user trust.
